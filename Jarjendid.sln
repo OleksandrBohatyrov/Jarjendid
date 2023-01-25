@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Jarjendid", "Jarjendid.pyproj", "{CF0998A4-C832-48B1-A8D8-ACDB2EBCD267}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF0998A4-C832-48B1-A8D8-ACDB2EBCD267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF0998A4-C832-48B1-A8D8-ACDB2EBCD267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76E86A1E-FCC0-4018-AB0B-BD68F0A61D18}
+	EndGlobalSection
+EndGlobal
