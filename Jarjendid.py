@@ -1,4 +1,4 @@
-﻿from random import randint
+from random import randint
 #spisok=[] #pustoy spisok
 #numbers=[1, 2, 3, 4, 5] #numbers
 #abc=['Abc', 'B', 'c'] #string
@@ -7,14 +7,14 @@
 #print(slovo)
 #print(slovo_list)
 #while True:
-#    print("1- добавить букву в список")
-#    print("2- склеить списки\n3-добавить букву на i - позицию\n4-Убрать букву из списка")
+#    print('1 - добавить букву\n2 - соединить списки\n3 - добавить букву в позицию\n4 - Удалить элемент\n5 - sorteerib tähed alustades kapitalist ja A kuni Z\n6 - sorteerib tähed alustades kapitalist ja A kuni Z aga vastupidi')
+#    print('7 - удаляет выбранную букву по номеру \n8-удаляет символ и оставляет пробел\n9 -отображается под введенным номером\n10 - очищает последовательность')
 #    valik=int(input())
 #    if valik==1:
 #        a=input("Введи букву ")
 #        slovo_list.append(a)
 #        print(f"Добавили {a} новый список ", slovo_list)
-#    elif valik==2:
+#    elif valik==2:  
 #        slovo_list.extend(abc)
 #        print(slovo_list)
 #    elif valik==3:
@@ -30,6 +30,27 @@
 #                slovo_list.remove(a) 
 #        else:
 #            print("Искомой буквы нет")
+#        print(slovo_list)
+#    elif valik == 5:
+#        slovo_list.sort()
+#        print(slovo_list)
+#    elif valik == 6:
+#        slovo_list.sort(reverse=True)
+#        print(slovo_list)
+#    elif valik == 7:
+#        a=int(input('Введите номер с буквой, которую нужно удалить: '))
+#        slovo_list.pop(a)
+#        print(slovo_list)
+#    elif valik == 8:
+#        a=input('Введите букву: ')
+#        r=int(input('Сколько букв поделиться?: '))
+#        x = slovo.split(a,r)
+#        print(x)
+#    elif valik == 9:
+#        a = int(input('введите номер: '))
+#        print(slovo_list[a-1])
+#    elif valik == 10:
+#        slovo_list.clear()
 #        print(slovo_list)
 
 #--------------------------Nimede lisamine loendisse
@@ -93,4 +114,13 @@
 #print("Total:", total)
 #print("Average:", average)
 
+#-----------------------------------------
+#nimed=["Anna", "Inna", "Olga", "Anna", "Inga", "Anna", "Juhan"]
 
+#nimi=input("Mis nimi on vaja otsida? ")
+#n=nimed.count(nimi)
+#p=0
+#for i in range(n):
+#    j=nimed.index(nimi,p)
+#    p=j+1
+#    print(nimi,"on",j+1)
